@@ -1,0 +1,40 @@
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.space-between {
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-methods {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-button {
+  background-color: black;
+  color: white;
+  border-radius: 1rem;
+  margin-top: 1em;
+  padding: 0.5em;
+  border-style: solid;
+  border-color: #7e7e7e;
+  border-width: 1px;
+  font-family: "Courier New", Courier, monospace;
+  cursor: pointer;
+}
+
+.auth-button:hover {
+  background-color: #222222;
+  border-color: #555555;
+}
+
+.auth-username-box {
+  display: flex;
+  flex-direction: column;
+}

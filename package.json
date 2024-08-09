@@ -1,0 +1,19 @@
+{
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"pocketbase": "^0.21.4",
+		"preact": "^10.20.0",
+		"preact-iso": "^2.6.3"
+	},
+	"devDependencies": {
+		"@preact/preset-vite": "^2.8.2",
+		"typescript": "^5.5.4",
+		"vite": "^5.2.2"
+	}
+}

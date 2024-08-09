@@ -1,0 +1,39 @@
+.formlist {
+  min-width: 40vw;
+  margin-top: 5em;
+}
+
+.formlist-buttons {
+  display: flex;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.formlist-button {
+  background-color: #333333;
+  flex: 1;
+  border: none;
+  cursor: pointer;
+}
+.formlist-button:hover,
+.formlist-button:active {
+  background-color: #444444;
+}
+
+.formlist-item {
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  text-align: left;
+  text-decoration: none;
+  background-color: #333333;
+  border: 1px solid transparent;
+  color: #aaaaaa;
+}
+
+.formlist-item:hover {
+  background-color: #444444;
+}
+.formlist-pageindex {
+  flex: 1;
+  background-color: #444444;
+  cursor: default;
+}

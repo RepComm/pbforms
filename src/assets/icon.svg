@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100pt"
+   height="100pt"
+   viewBox="0 0 35.277778 35.277777"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="icon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="pt"
+     showgrid="false"
+     showguides="false"
+     units="pt"
+     width="100pt"
+     inkscape:zoom="4.1272894"
+     inkscape:cx="59.603283"
+     inkscape:cy="73.4138"
+     inkscape:window-width="1920"
+     inkscape:window-height="1053"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:snap-global="false" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1725">
+      <stop
+         style="stop-color:#1f1a20;stop-opacity:1"
+         offset="0"
+         id="stop1721" />
+      <stop
+         style="stop-color:#463838;stop-opacity:1"
+         offset="1"
+         id="stop1723" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient66245">
+      <stop
+         style="stop-color:#312932;stop-opacity:1"
+         offset="0"
+         id="stop66241" />
+      <stop
+         style="stop-color:#584747;stop-opacity:1"
+         offset="1"
+         id="stop66243" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient66245"
+       id="linearGradient66247"
+       x1="0"
+       y1="0"
+       x2="35.277779"
+       y2="0"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1725"
+       id="linearGradient1107"
+       gradientUnits="userSpaceOnUse"
+       x1="-1e-06"
+       y1="-1e-06"
+       x2="-1e-06"
+       y2="35.277779"
+       gradientTransform="matrix(-3.7795274,0,0,-3.7795274,133.33333,133.33333)" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="rect843"
+       style="fill:url(#linearGradient66247);fill-opacity:1;stroke:none;stroke-width:0.705556;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+       d="M 0,0 H 35.277779 L 0,35.277779 Z"
+       sodipodi:nodetypes="cccc" />
+    <path
+       id="rect843-7"
+       style="fill:url(#linearGradient1107);fill-opacity:1;stroke:none;stroke-width:2.66667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+       d="M 133.33398,-0.01333333 -0.01333333,133.33333 30,133.33398 133.33398,30 Z"
+       transform="scale(0.26458334)"
+       sodipodi:nodetypes="ccccc" />
+    <g
+       id="g3723"
+       transform="matrix(2.02278,0,0,2.02278,0,-0.54860441)">
+      <rect
+         style="fill:#000000;fill-opacity:0.184999;stroke:none;stroke-width:0.705556;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+         id="rect67273"
+         width="11.336926"
+         height="9.7096148"
+         x="0"
+         y="0.56281394"
+         ry="0"
+         rx="0" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;fill:#c2c2c2;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="1.1917175"
+         y="6.7108293"
+         id="text8134"><tspan
+           sodipodi:role="line"
+           id="tspan8132"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:FreeMono;-inkscape-font-specification:FreeMono;fill:#c2c2c2;fill-opacity:1;stroke-width:0.264583"
+           x="1.1917175"
+           y="6.7108293">pb</tspan></text>
+      <g
+         id="g2060"
+         transform="matrix(0.81102634,0,0,0.81102634,2.4073047,2.3755974)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;fill:#080808;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="12.072087"
+           y="5.2184334"
+           id="text8134-3-7"><tspan
+             sodipodi:role="line"
+             id="tspan8132-6-5"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:FreeMono;-inkscape-font-specification:FreeMono;fill:#080808;fill-opacity:1;stroke-width:0.264583"
+             x="12.072087"
+             y="5.2184334">f</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="12.274007"
+           y="5.226326"
+           id="text8134-3"><tspan
+             sodipodi:role="line"
+             id="tspan8132-6"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:FreeMono;-inkscape-font-specification:FreeMono;fill:#e6e6e6;fill-opacity:1;stroke-width:0.264583"
+             x="12.274007"
+             y="5.226326">f</tspan></text>
+      </g>
+      <rect
+         style="fill:#b9b9b9;fill-opacity:1;stroke-width:0.176389;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill"
+         id="rect42774"
+         width="0.45449999"
+         height="9.7453394"
+         x="11.118105"
+         y="0.53638554"
+         ry="0.47966692" />
+    </g>
+  </g>
+</svg>

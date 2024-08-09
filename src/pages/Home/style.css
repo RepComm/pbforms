@@ -1,0 +1,28 @@
+img {
+  margin-bottom: 1.5rem;
+}
+
+img:hover {
+  filter: drop-shadow(0 0 1em #ffffffaa);
+}
+
+.home section {
+  display: grid;
+  /* grid-template-rows: repeat(3, 1fr); */
+  row-gap: 0.5rem;
+}
+
+@media (max-width: 639px) {
+  .home section {
+    margin-top: 5rem;
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .resource {
+    color: #ccc;
+    background-color: #161616;
+  }
+}
