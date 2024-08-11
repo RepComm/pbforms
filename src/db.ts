@@ -25,6 +25,9 @@ export class DB {
   static async ListAuthMethods() {
     return DB.ctx.collection("users").listAuthMethods();
   }
+  static async GetCollectionSchemas() {
+    return DB.ctx.collection("schemas").getFullList<CollectionModel>();
+  }
   static async GetCollectionSchema(collectionId: string) {
     // let result: CollectionModel;
     //only works for admin
@@ -45,6 +48,9 @@ export class DB {
     // return result;
   }
   static async GetFormFields(f: pb_schema_map["forms"]) {
+    if (!f.expand?.fields) {
+      throw `no fields in form`;
+    }
     const _schemas = new Map<string, CollectionModel>();
 
     async function getCollectionSchema(collectionId: string) {
@@ -68,5 +74,13 @@ export class DB {
       }
     }
     return field_schemas;
+  }
+  static async GetCollectionNames() {
+    const schemas = await DB.ctx.collection("schemas").getFullList();
+    const results = new Array<string>();
+    for (const sch of schemas) {
+      results.push(sch["name"]);
+    }
+    return results;
   }
 }

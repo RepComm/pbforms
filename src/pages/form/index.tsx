@@ -3,6 +3,7 @@ import "./style.css";
 import { DB } from "../../db";
 import { pb_schema_map } from "../../schema";
 import { JSX } from "preact/jsx-runtime";
+import { createRef } from "preact";
 
 interface FormProps {
   formId: string;
@@ -43,12 +44,29 @@ export function Form(props: FormProps) {
     if (f.expand?.fields && fieldSchemas) {
       for (const field of f.expand.fields) {
         const sch = fieldSchemas.get(field.field_id);
-
+        if (!sch) {
+          continue;
+        }
         let e: JSX.Element;
 
         switch (sch.type) {
           case "file":
-            e = <input type="file"></input>;
+            {
+              const inputRef = createRef<HTMLInputElement>();
+              e = (
+                <div class="file_input_wrapper">
+                  <button
+                    class="field_file_button_proxy"
+                    onClick={(e) => {
+                      inputRef.current.click();
+                    }}
+                  >
+                    Upload
+                  </button>
+                  <input type="file" ref={inputRef}></input>
+                </div>
+              );
+            }
             break;
           case "select":
             {

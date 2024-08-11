@@ -13,6 +13,7 @@ export function BrandCorner(props: BrandProps) {
         position: "fixed",
         top: 0,
         left: 0,
+        cursor: "pointer",
       }}
       onClick={() => (window.location.href = "/")}
     ></img>

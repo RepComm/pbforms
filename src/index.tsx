@@ -8,6 +8,7 @@ import "./style.css";
 import { DB } from "./db.js";
 import { Form } from "./pages/form/index.js";
 import { Auth } from "./pages/auth/index.js";
+import { CSVPage } from "./pages/csv/CsvPage.js";
 
 export function App() {
   DB.init(`${window.location.protocol}//${window.location.hostname}:8090`);
@@ -20,6 +21,7 @@ export function App() {
           <Route path="/" component={Home} />
           <Route path="/form/:formId" component={Form} />
           <Route path="/auth" component={Auth} />
+          <Route path="/csv" component={CSVPage} />
           <Route default component={NotFound} />
         </Router>
       </main>

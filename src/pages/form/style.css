@@ -1,0 +1,8 @@
+.form-field {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-field > .file_input_wrapper > input[type="file"] {
+  display: none;
+}
